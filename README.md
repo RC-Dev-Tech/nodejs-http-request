@@ -29,7 +29,7 @@
 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example1.ts) - Hello World.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example2.ts) - http.get().
-- [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - http.request().
+- [Example3](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - http.request().
 
 ---
 <br>
