@@ -18,7 +18,7 @@
 
 ## 簡介
 
-原本這篇是想要介紹request[^1]跟request-parmire[^2]的應用範例，但是因為這兩個套件已經不在維護，<br>
+原本這篇是想要介紹***request***[^1]跟****request-parmire***[^2]的應用範例，但是因為這兩個套件已經不在維護，<br>
 所以這邊就改成介紹如何使用原生的http模組去進行request[^3]的實作範例[^4].<br>
 <br>
 原生http在打對方api的時候，可以使用兩種方法，分別是get()跟request(),
@@ -27,9 +27,9 @@
             其method包含了所有(GET、POST、PUT、DELETE)
 
 實作範例:
-- [Example1](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example1.ts) - Hello World.
-- [Example2](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example2.ts) - http.get().
-- [Example2](https://github.com/RC-Dev-Tech/nodejs-express-session/blob/main/src/examples/example2.ts) - http.request().
+- [Example1](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example1.ts) - Hello World.
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example2.ts) - http.get().
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - http.request().
 
 ---
 <br>
@@ -68,7 +68,7 @@
 <!--te-->
 ---
 ## 備註：
-[^1]: [npm request](https://www.npmjs.com/package/request) 已於2020年2月起，停止維護，並不在推薦使用. <br>
-[^2]: [npm request-promise](https://www.npmjs.com/package/request-promise) 已於2020年2月起，停止維護，並不在推薦使用. <br>
-[^3]: 這邊的範例需要模擬一個可以打API的地方，這邊我們可以使用[nodejs-express-rest-api](https://github.com/RC-Dev-Tech/nodejs-express-rest-api)的範例. <br>
-[^4]: http.request是node.js中類似curl功能，主要是用來模擬HTTP的動作 <br>
+[^1]: [npm request](https://www.npmjs.com/package/request) 已於2020年2月起，停止維護，並不在推薦使用.
+[^2]: [npm request-promise](https://www.npmjs.com/package/request-promise) 已於2020年2月起，停止維護，並不在推薦使用.
+[^3]: 這邊的範例需要模擬一個可以打API的地方，這邊我們可以使用[nodejs-express-rest-api](https://github.com/RC-Dev-Tech/nodejs-express-rest-api)的範例.
+[^4]: http.request是node.js中類似curl功能，主要是用來模擬HTTP的動作
