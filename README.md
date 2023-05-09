@@ -26,6 +26,8 @@
 - requset() 這個方法目前是原生http在打api最泛用的一個方法，<br>
             其method包含了所有(GET、POST、PUT、DELETE)
 
+---
+
 ## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example1.ts) - Hello World.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example2.ts) - http.get().
